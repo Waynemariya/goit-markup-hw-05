@@ -467,15 +467,8 @@ text-transform: uppercase;
 .footer-form{
     display: flex;
     gap: 24px;
+}
 
-}
-.label-form{
-    display: inline-block;
-    align-items: flex-start;
-    gap: 16px;
-    align-self: stretch;
-    
-}
 .email-form{
     width: 264px;
     height: 40px;
@@ -495,25 +488,25 @@ text-transform: uppercase;
  
 
 .form-button{
-display: inline-flex;
-padding: 8px 24px;
-justify-content: center;
-align-items: center;
-gap: 16px;
-border-radius: 4px;
-background: #4D5AE5;
-color: #FFF;
-text-align: center;
-font-family: "Roboto", sans-serif;
-font-size: 16px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.64px;
-border: none;
-cursor: pointer;
-height: 40px;
-min-width: 165px;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 4px;
+    background: #4D5AE5;
+    color: #FFF;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    min-width: 165px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-form{
     fill: #fff;
